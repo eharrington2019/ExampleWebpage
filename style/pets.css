@@ -1,4 +1,4 @@
-.menu{
+.pets{
   display: flex;
 }
 .foodItem {
@@ -15,22 +15,22 @@
 .cost{
   flex: 1;
 }
-.ingredients{
+.description{
   display: flex;
   margin: 4px;
-  padding: 0px;
+  padding: 10px;
   border: 2px solid green;
-  box-shadow: 1px 1px 2px #dddddd;
+  box-shadow: 5px 5px 5px #dddddd;
   flex-direction:column;
 }
-.ingredients:before{
-  content: "Ingredients";
+.description:before{
+  content: "Specs";
   font-weight: bold;
   background: #00AA00;
-  color: #DDFFDD;
+  color: #00008B;
 }
 
-.ingredient, .ingredients:before{
+.description, .description:before{
   flex: 1;
   padding: 0.5em;
 }
