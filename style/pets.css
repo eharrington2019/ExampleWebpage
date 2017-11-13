@@ -1,13 +1,6 @@
 .pets{
   display: flex;
-}
-.foodItem {
-  display: flex;
-  flex-direction: column;
-}
-.foodItem .header{
-  display: flex;
-  flex-direction: row;
+  
 }
 .name{
   flex: 2;
@@ -15,11 +8,14 @@
 .cost{
   flex: 1;
 }
+.img{
+  width: 25%;
+  height: 25%;
+}
 .description{
-  display: flex;
   margin: 4px;
   padding: 10px;
-  border: 2px solid green;
+  border: 2px solid blue;
   box-shadow: 5px 5px 5px #dddddd;
   flex-direction:column;
 }
@@ -27,9 +23,8 @@
   content: "Specs";
   font-weight: bold;
   background: #00AA00;
-  color: #00008B;
+  color: black;
 }
-
 .description, .description:before{
   flex: 1;
   padding: 0.5em;
